@@ -38,6 +38,9 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- CSS Observatorio Nieves -->
+  <link href="assets/css/obs.css" rel="stylesheet">
+
   <!-- =======================================================
   * Template Name: Squadfree - v2.2.0
   * Template URL: https://bootstrapmade.com/squadfree-free-bootstrap-template-creative/
@@ -84,6 +87,9 @@
           </li>-->
           <li><a href="#contact">Contactános</a></li>
 
+          <!-- HABILITAR DÍA DEL SEMINARIO -->
+          <li class="btn btn-danger blob"><a href="seminario.html#seminario" class="btn btn-danger text-light" target="_self">Seminario en Vivo</a></li>
+
         </ul>
       </nav><!-- .nav-menu -->
 
@@ -95,19 +101,28 @@
     <div class="hero-container" data-aos="fade-up">
       <h1>OBSERVATORIO SATELITAL DE NIEVES</h1>
       <h2>Cuenca del Río Aconcagua</h2>
-      <a href="#about" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
+      <h2>
+        <span id="countdown-pre">El Seminario Empieza En:</span> <span id="countdown"></span>
+      </h2>
+      <a href="#seminario" class="btn-get-started scrollto"><i class="bx bx-chevrons-down"></i></a>
     </div>
   </section><!-- End Hero -->
 
   <main id="main">
 
         <!-- ======= Seminario Section ======= -->
-        <section id="services" class="services">
+        <section id="seminario" class="services">
           <div class="container">
     
             <div class="section-title" data-aos="fade-in" data-aos-delay="100">
               <h2>Seminario Inagural</h2>
-              <p>Generar un  observatorio  de  nieves para   la  cuenca  del   río   Aconcagua que recopile la información histórica, la actualice en forma continua y la haga  disponible utilizando e integrando diversas fuentes de información espacial y una plataforma online para hacerla accesible a los diversos usuarios, junto a un  modelo de sostenibilidad que permita darle continuidad al observatorio</p>
+
+              <!-- HABILITAR DÍA DEL SEMINARIO -->
+              <h2>
+                <span id="countdown-pre2">El Seminario Empieza En:</span> <span id="countdown2"></span>
+              </h2>
+
+              <p>Martes 24 de Noviembre de 15:30 hrs a 18:00 hrs</p>
             </div>
     
             <div class="row">
@@ -688,6 +703,9 @@ generadas.</p>
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- CSS OBservatorio Nieves -->
+  <script src="assets/js/obs.js"></script>
 
 </body>
 
