@@ -1,4 +1,4 @@
-var end = new Date('11/24/2020 3:30 PM');
+var end = new Date('11/24/2020 3:15 PM');
 
     var _second = 1000;
     var _minute = _second * 60;
@@ -12,10 +12,10 @@ var end = new Date('11/24/2020 3:30 PM');
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById('countdown').innerHTML = 'Empezó el Seminario! <a class="btn btn-danger blob" href="seminario.html#seminario" target="_self">Seminario en Vivo</a>';
+            document.getElementById('countdown').innerHTML = 'Empezó el Seminario! <a class="btn btn-danger blob" href="https://youtu.be/c0gQofRHoxg" target="_blank">Seminario en Vivo</a>';
             document.getElementById('countdown-pre').innerHTML = '';
 
-            document.getElementById('countdown2').innerHTML = 'Empezó el Seminario! <a class="btn btn-danger blob" href="seminario.html#seminario" target="_self">Seminario en Vivo</a>';
+            document.getElementById('countdown2').innerHTML = 'Empezó el Seminario! <a class="btn btn-danger blob" href="https://youtu.be/c0gQofRHoxg" target="_blank">Seminario en Vivo</a>';
             document.getElementById('countdown-pre2').innerHTML = '';
 
             return;
