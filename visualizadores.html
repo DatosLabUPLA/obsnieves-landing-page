@@ -71,10 +71,10 @@
 
           <li class="drop-down"><a href="visualizadores.html">Visualizadores</a>
             <ul>
-              <li><a href="prototipo1.html">Prototipo 1: Estado Actual</a></li>
-              <li><a href="prototipo2.html">Prototipo 2: Estacional</a></li>
-              <li><a href="prototipo3.html">Prototipo 3: Interanual</a></li>
-              <li><a href="prototipo4.html">Prototipo 4: Descargas</a></li>
+              <li><a href="visualizadores.html#prototipo1">Prototipo 1: Estado Actual</a></li>
+              <li><a href="visualizadores.html#prototipo2">Prototipo 2: Estacional</a></li>
+              <li><a href="visualizadores.html#prototipo3">Prototipo 3: Interanual</a></li>
+              <li><a href="visualizadores.html#prototipo4">Prototipo 4: Descargas</a></li>
             </ul>
           </li>
 
@@ -102,8 +102,8 @@
   <main id="main">
 
 
-  <!-- ======= News Section ======= -->
-  <section id="news" class="news">
+  <!-- ======= Prototipo 1 Section ======= -->
+  <section id="prototipo1" class="news">
     <div class="container">
 
       <div class="section-title" data-aos="fade-in" data-aos-delay="100">
@@ -133,6 +133,100 @@
 
     </div>
   </section><!-- End News Section -->
+
+  <!-- ======= Prototipo 2 Section ======= -->
+  <section id="prototipo2" class="about">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+        <h2>Prototipo 2: Estacional</h2>
+      </div>
+
+      <div class="row text-justify">
+          <p>
+            En base a imágenes satelitales diarias del producto de nieves (MOD10A1) obtenidas del sensor MODIS,
+            se establece una comparación estacional entre los distintos meses del año sobre la cuenca del Río
+            Aconcagua mediante un panel divisorio. La información es recopilada a partir de los valores del promedio
+            mensual del Indice Normalizado de Nieve (NDSI). Esta interfaz de usuario le permite seleccionar los
+            meses de interés a analizar, desplegando el panel divisorio donde se visualizará el resultado dentro del
+            mapa.
+          </p>
+
+          <p>
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://observatorionieves.users.earthengine.app/view/promedio-ndsi-mensual" allowfullscreen></iframe>
+            </div>
+          </p>
+
+
+        
+      </div>
+
+    </div>
+  </section><!-- End News Section -->
+
+  <!-- ======= Prototipo 3 Section ======= -->
+  <section id="prototipo3" class="about">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+        <h2>Prototipo 3: Interanual</h2>
+      </div>
+
+      <div class="row text-justify">
+          <p>
+            A partir de las imágenes satelitales diarias del producto de nieves del sensor MODIS (MOD10A1) se
+            establece una comparación espacio temporal anual de nieves sobre la cuenca del río Aconcagua. La
+            información presentada es recopilada a partir de los valores del promedio anual del Índice Normalizado
+            de Nieve (NDSI). La interfaz de usuario le permite seleccionar un año de interés a analizar, generando la
+            comparación a la izquierda y derecha del panel divisorio con los resultados.
+          </p>
+
+          <p>
+            <div class="embed-responsive embed-responsive-4by3">
+                <iframe class="embed-responsive-item" src="https://observatorionieves.users.earthengine.app/view/promedio-anual-ndsi" allowfullscreen></iframe>
+            </div>
+          </p>
+
+
+        
+      </div>
+
+    </div>
+  </section><!-- End News Section -->
+
+    <!-- ======= Prototipo 4 Section ======= -->
+    <section id="prototipo4" class="news">
+        <div class="container">
+    
+          <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+            <h2>Prototipo 4: Descargas</h2>
+          </div>
+    
+          <div class="row text-justify">
+              <p>
+                A partir de imágenes diarias del sensor satelital MODIS (MOD10A1) se determina la variabilidad espacio
+                temporal de nieves sobre la cuenca del Aconcagua. Se presenta la información del valor promedio del
+                Índice Normalizado de Nieve (NDSI), el promedio del área cubierta de nieve (SCA) y el promedio de &quot;no
+                datos&quot; productos de la presencia de nubes, ángulo de visión, saturación del sensor, etc. La información
+                
+                inicial corresponde al análisis sobre la cuenca completa, todo el periodo de medición (desde el 2000) a
+                una escala anual. Puede personalizar su búsqueda definiendo un periodo de medición, frecuencia de
+                medición y el área interesada.
+              </p>
+    
+              <p>
+                <div class="embed-responsive embed-responsive-4by3">
+                    <iframe class="embed-responsive-item" src="https://observatorionieves.users.earthengine.app/view/downloaddata" allowfullscreen></iframe>
+                </div>
+              </p>
+    
+    
+            
+          </div>
+    
+        </div>
+      </section><!-- End News Section -->
 
 
     <!-- ======= Contact Section ======= -->
